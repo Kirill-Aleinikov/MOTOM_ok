@@ -13,7 +13,6 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
@@ -36,9 +35,9 @@ img {
     display: none;
 }
 .conteiner {
-    max-width: 80%;
+    max-width: 83.2%;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 15px 10px;
 }
 .header__body {
     position: relative;
@@ -152,14 +151,14 @@ img {
     padding-bottom: 19%;
 }
 .main-block{
-    max-width: 80%;
+    max-width: 82.25%;
     margin: 0 auto;
 }
 .main-block img{
 	float: right;
     position: absolute;
-    top: 45%;
-    right: 1%;
+    top: 42%;
+    right: 10%;
 }
 
 .main-block h1{
@@ -194,9 +193,9 @@ img {
 
 .skroll-info{
     display: flex;
-    max-width: 80%;
+    max-width: 83.5%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 76px 0 100px 0;
 }
 .item-skroll{
@@ -219,7 +218,7 @@ img {
 }
 
 .about-company{
-    max-width: 80%;
+    max-width: 82.5%;
     margin: 0 auto;
 }
 .about-company h1{
@@ -237,7 +236,7 @@ img {
     padding-top: 70px;
 }
 .block-company>div:nth-child(1) p{
-    padding-right: 59px;
+    padding-right: 50px;
     font-size: 23px;
     line-height: 28px;
     color: #212028;
@@ -266,7 +265,7 @@ img {
 
 .logo-cars{
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 83.5%;
 }
 .mark {
     display: flex;
@@ -303,7 +302,7 @@ img {
 	margin-left: auto; 
 }
 .service{
-    max-width: 80%;
+    max-width: 83.5%;
     margin: 0 auto;
 }
 .service p {
@@ -314,7 +313,7 @@ img {
 }
 .service h1{
     color: #201F26;
-    padding: 100px 0;
+    padding: 153px 0 134px;
 }
 .service h1 span{
     color: #DC0E02;
@@ -381,7 +380,7 @@ img {
     padding: 112px 0 89px 0;
 }
 .warranty{
-    max-width: 80%;
+    max-width: 83.5%;
     margin: 0 auto;
 }
 .warranty h1{
@@ -465,8 +464,8 @@ img {
 }
 .location h1{
     color: #201F26;
-    padding: 100px 0;
-    max-width: 80%;
+    padding: 177px 0 100px;
+    max-width: 83.5%;
     margin: 0 auto;
 }
 
@@ -497,7 +496,7 @@ img {
 .info-work-block{
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 86.5%;
     margin: 0 auto;
     padding-top: 25px;
 }
@@ -521,10 +520,10 @@ img {
 }
 .basement-info{
     display: flex;
-    max-width: 80%;
+    max-width: 83.5%;
     margin: 0 auto;
     justify-content: space-between;
-	padding-bottom:40px;
+	padding:3% 0 1.5% 0;
 }
 
 .basement-info>div:nth-child(1){
@@ -550,10 +549,11 @@ img {
     flex-direction: row;
     align-items: center;
     width: 324px;
+	justify-content: flex-end;
 }
 
 .basement>img:nth-child(1){
-    padding: 33px;
+    padding: 33px 0 0;
     display: block;
     margin: 0 auto;
 }

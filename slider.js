@@ -1,6 +1,6 @@
 $(window).on('load resize', function(){
 	
-	if ($(window).width() < 900) {
+	if ($(window).width() < 901) {
 		$('.skroll-info:not(.slick-initialized)').slick({
 			dots: true,
 			infinite: true,
