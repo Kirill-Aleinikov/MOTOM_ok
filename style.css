@@ -2,15 +2,14 @@
 @import "font/montserrat/stylesheet.css";
 
 
-*,*:before,*:after
-{
+*,*:before,*:after {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-html, body
-{
+
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -20,16 +19,17 @@ html, body
     font-weight: normal;
     font-size: calc(16px + 1vw);
 }
-h1{
+
+h1 {
     font-size: 72px;
     line-height: 88px;
     font-weight: bold;
 }
-img
-{
+img {
     max-width: 100%;
 }
-.header{
+
+.header {
     background: url(./img/Rectangle\ 4.png);
 }
 .phone{
@@ -44,7 +44,7 @@ img
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 47px; 
     align-items: center;
     padding-top: 34px;
 }
@@ -71,7 +71,7 @@ img
     list-style: none;
     margin: 0 0 0 60px;
 }
-.header__list li a:hover{
+.header__list li a:hover{ 
     color:#9B0F07;
 }
 .header__link {
@@ -157,8 +157,11 @@ img
 }
 .main-block img{
 	float: right;
-    margin: -167px 0 7px 7px;
+    position: absolute;
+    top: 45%;
+    right: 1%;
 }
+
 .main-block h1{
     line-height: 129.4%;
     text-transform: uppercase;
